@@ -26,4 +26,4 @@ You may also see any lint errors in the console.
 
 The data was obtained from from Chicago Data Portal for Crimes in Chicago. This dataset has Chicago from 2001 - Present.
 
-For the sake of this project a small subset of datset is being used Jan 2020 - Feb 2025
+For the sake of this project a small subset of dataset between Jan 2020 - Feb 2025 is being used.
