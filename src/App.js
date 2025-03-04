@@ -32,7 +32,7 @@ function App() {
         <div className="chart-item">
           <CrimeMap data={crimeData} />
         </div>
-      </div> */}
+      </div>  */}
     </div>
   );
 }
