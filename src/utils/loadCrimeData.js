@@ -55,7 +55,7 @@ const useCrimeData = (filePath = "/data/crime_data_2020_25.xlsx") => {
             latitude: row["Latitude"] ? parseFloat(row["Latitude"]) : null,
             longitude: row["Longitude"] ? parseFloat(row["Longitude"]) : null,
           }))
-          .slice(0, 10000)
+          // .slice(0, 50000)
           .filter((d) => topCategories.has(d.crimeType) && d.year !== null && d.latitude !== null && d.longitude !== null);
 
         console.log("Processed Top 10 Crime Data:", formattedData);

@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-// import DonutChart from "./components/DonutChart";
-// import BarChartComponent from "./components/BarChart";
-// import CrimeMap from "./components/CrimeMap";
+import DonutChart from "./components/DonutChart";
+// import BarChartComponent from "./components/BarChartComponent";
+import CrimeMap from "./components/CrimeMap";
 import useCrimeData from "./utils/loadCrimeData";
-// import StackedBarChart from "./components/StackedBarChart";
+import StackedBarChart from "./components/StackedBarChart";
 // import LineChart from "./components/LineChart";
-// import MultiLineChart from "./components/MultiLineChart";
+import MultiLineChart from "./components/MultiLineChart";
 
 function App() {
   const { crimeData, loading, error } = useCrimeData("/data/2020-25.xlsx"); // Load from Excel
@@ -19,7 +19,7 @@ function App() {
       <h1>Chicago Crime Data Dashboard</h1> 
       <p>Total Records Loaded: {crimeData.length}</p>
 
-      {/* <div className="charts-container">
+      <div className="charts-container">
         <div className="chart-item">
           <MultiLineChart data={crimeData} />
         </div>
@@ -32,7 +32,7 @@ function App() {
         <div className="chart-item">
           <CrimeMap data={crimeData} />
         </div>
-      </div>  */}
+      </div> 
     </div>
   );
 }
