@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.24567dda.css",
-    "main.js": "/static/js/main.ccb1c55b.js",
-    "static/js/453.0c2440bc.chunk.js": "/static/js/453.0c2440bc.chunk.js",
-    "index.html": "/index.html",
-    "main.24567dda.css.map": "/static/css/main.24567dda.css.map",
-    "main.ccb1c55b.js.map": "/static/js/main.ccb1c55b.js.map",
-    "453.0c2440bc.chunk.js.map": "/static/js/453.0c2440bc.chunk.js.map"
+    "main.css": "/chicago-crime-dashboard/static/css/main.24567dda.css",
+    "main.js": "/chicago-crime-dashboard/static/js/main.351cc3f4.js",
+    "static/js/453.0c2440bc.chunk.js": "/chicago-crime-dashboard/static/js/453.0c2440bc.chunk.js",
+    "index.html": "/chicago-crime-dashboard/index.html",
+    "main.24567dda.css.map": "/chicago-crime-dashboard/static/css/main.24567dda.css.map",
+    "main.351cc3f4.js.map": "/chicago-crime-dashboard/static/js/main.351cc3f4.js.map",
+    "453.0c2440bc.chunk.js.map": "/chicago-crime-dashboard/static/js/453.0c2440bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24567dda.css",
-    "static/js/main.ccb1c55b.js"
+    "static/js/main.351cc3f4.js"
   ]
 }
